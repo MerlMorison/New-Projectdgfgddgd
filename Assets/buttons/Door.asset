@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: Door
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: dff5e583559c4c24b91ab3186fae2f64,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 8d87cf3d944acc4429f6a70743d7d8d5,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export TargetAnim\r\n    .export isOpen\r\n   
     .sync isOpen, none\r\n    \r\n    __player_0: %VRCSDKBaseVRCPlayerApi, null\r\n   
