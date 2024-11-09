@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: a748f424ed01edd43bc11811854aeac1
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Enoki
+    100002: //RootNode
+    100004: Gyukata Roas
+    100006: Hakusai
+    100008: Negi
+    100010: Shiitake
+    100012: Shirataki
+    100014: Shungiku
+    100016: Tofu
+    400000: Enoki
+    400002: //RootNode
+    400004: Gyukata Roas
+    400006: Hakusai
+    400008: Negi
+    400010: Shiitake
+    400012: Shirataki
+    400014: Shungiku
+    400016: Tofu
+    2100000: Food
+    2300000: Enoki
+    2300002: Gyukata Roas
+    2300004: Hakusai
+    2300006: Negi
+    2300008: Shiitake
+    2300010: Shirataki
+    2300012: Shungiku
+    2300014: Tofu
+    3300000: Enoki
+    3300002: Gyukata Roas
+    3300004: Hakusai
+    3300006: Negi
+    3300008: Shiitake
+    3300010: Shirataki
+    3300012: Shungiku
+    3300014: Tofu
+    4300000: Shiitake
+    4300002: Negi
+    4300004: Tofu
+    4300006: Gyukata Roas
+    4300008: Enoki
+    4300010: Shungiku
+    4300012: Hakusai
+    4300014: Shirataki
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Food
+    second: {fileID: 2100000, guid: d3a31546a2cf1c04483ab215c27ee8b1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

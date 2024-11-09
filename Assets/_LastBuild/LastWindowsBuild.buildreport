@@ -1,0 +1,2058 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!668709126 &-6520782491330963272
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-vrcdefaultworldscene.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: New Projectdgfgddgd
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!1521398425 &-5031769215241371876
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!641289076 &-94682823307758770
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638663576782664223
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    subtarget: 0
+    options: 0
+    assetBundleOptions: 32
+    outputPath: C:/Users/ANASTA~1/AppData/Local/Temp/DefaultCompany/New Projectdgfgddgd
+    crc: 570399066
+    totalSize: 20682926
+    totalTimeTicks: 136280306
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 2
+    buildResult: 1
+  m_Files:
+  - path: D:/VR/New Projectdgfgddgd/scene-standalonewindows64-vrcdefaultworldscene.vrcw/BuildPlayer-VRCDefaultWorldScene
+    role: Scene
+    id: 0
+    totalSize: 291200
+  - path: D:/VR/New Projectdgfgddgd/scene-standalonewindows64-vrcdefaultworldscene.vrcw/BuildPlayer-VRCDefaultWorldScene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 46977696
+  - path: D:/VR/New Projectdgfgddgd/scene-standalonewindows64-vrcdefaultworldscene.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 20677500
+  - path: D:/VR/New Projectdgfgddgd/scene-standalonewindows64-vrcdefaultworldscene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 4189
+  - path: D:/VR/New Projectdgfgddgd/New Projectdgfgddgd/CAB-1ff9e3b79a339d05495dbae1bde09ad5
+    role: ResourcesFile
+    id: 4
+    totalSize: 4256
+  - path: D:/VR/New Projectdgfgddgd/New Projectdgfgddgd
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1058
+  - path: D:/VR/New Projectdgfgddgd/New Projectdgfgddgd.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 179
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 136280306
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 68873
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 20035827
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 19532267
+    depth: 2
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 433385
+    depth: 2
+    messages: []
+  - stepName: Build Scene AssetBundle(s)
+    durationTicks: 102116839
+    depth: 1
+    messages: []
+  - stepName: 'Build bundle: scene-standalonewindows64-vrcdefaultworldscene.vrcw'
+    durationTicks: 98962814
+    depth: 2
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 191164
+    depth: 3
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 447229
+    depth: 3
+    messages: []
+  - stepName: Prepare splash screen
+    durationTicks: 2980
+    depth: 3
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+  - stepName: Building scenes
+    durationTicks: 13364973
+    depth: 3
+    messages: []
+  - stepName: Building scene Assets/Scenes/VRCDefaultWorldScene.unity
+    durationTicks: 13364846
+    depth: 4
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 2350627
+    depth: 3
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-VRCDefaultWorldScene/BuildPlayer-VRCDefaultWorldScene.sharedAssets
+    durationTicks: 2312240
+    depth: 4
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 75321344
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 172300
+    depth: 3
+    messages: []
+  m_Appendices:
+  - {fileID: -6520782491330963272}
+  - {fileID: 3690622872345200558}
+  - {fileID: 647367694187533658}
+  - {fileID: -94682823307758770}
+  - {fileID: -5031769215241371876}
+  - {fileID: 1477833057323689681}
+--- !u!382020655 &647367694187533658
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - VRC.Udon.VM
+  - VRC.SDK3.Dynamics.PhysBone
+  - VRC.Udon.Security
+  - VRCEconomy
+  - libvrc_image_loader
+  - YamlDotNet
+  - VRCSDK3
+  - nunit.framework
+  - VRCCore-Editor
+  - Serilog.Sinks.File
+  - VRC.SDK3.Dynamics.Contact
+  - System.Collections.Immutable
+  - OculusXRPlugin
+  - VRC.Udon.Wrapper
+  - vrc_image_loader
+  - Unity.Burst.Unsafe
+  - SemanticVersioning
+  - librsync.net
+  - OVRPlugin
+  - System.Runtime.CompilerServices.Unsafe
+  - Newtonsoft.Json
+  - Unity.Collections.LowLevel.ILSupport
+  - VRC.Udon.Common
+  - VRC.Udon.VRCWrapperModules
+  - VRC.Dynamics
+  - VRCSDKBase
+  - VRC.Utility
+  - portmidi
+  - VRC.Udon.ClientBindings
+  - SDKBase-Legacy
+  - Blake2Sharp
+  - System.Text.Encoding.CodePages
+  - Serilog
+  - Collections.Pooled
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRC.Udon.VRCGraphModules
+  - VRC.Udon.EditorBindings
+  - 0Harmony
+  - VRC.SDK3.Dynamics.Contact.Editor
+  - libvrc_shader_compiler_plugin
+  - Mono.Cecil.Pdb
+  - JetBrains.Rider.PathLocator
+  - vrc_shader_compiler_plugin
+  - VRCSDKBase-Editor
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.VRCTypeResolverModules
+  - VRCEconomy-Editor
+  - ICSharpCode.SharpZipLib
+  - AppleEventIntegration
+  - Mono.Cecil
+  - VRC.Udon.Graph
+  - Unity.Burst.Cecil.Pdb
+  - Mono.Cecil.Rocks
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - VRCSDK3-Editor
+  - Mono.Cecil.Mdb
+  - Serilog.Sinks.Unity3D
+  - Unity.Burst.Cecil.Mdb
+  - VRC.SDK3.Dynamics.PhysBone.Editor
+  - Unity.Burst.Cecil
+  - Unity.Burst.Cecil.Rocks
+  - vpm-core-lib
+  - VRC.Udon.UAssembly
+--- !u!1126 &1477833057323689681
+PackedAssets:
+  m_ShortPath: CAB-1ff9e3b79a339d05495dbae1bde09ad5
+  m_Overhead: 4032
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4032
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 120
+    offset: 4136
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!1126 &3690622872345200558
+PackedAssets:
+  m_ShortPath: BuildPlayer-VRCDefaultWorldScene.sharedAssets
+  m_Overhead: 144123
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 97
+    offset: 146568
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 176
+    offset: 146672
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 1080
+    offset: 146848
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 4
+    classID: 21
+    packedSize: 908
+    offset: 147928
+    sourceAssetGUID: bf99784c0118e114c80ad5c8ca2a5b8d
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/ControlPanel.mat
+  - fileID: 5
+    classID: 21
+    packedSize: 932
+    offset: 148840
+    sourceAssetGUID: 4580dd49916b3c542b97109c8ca425f3
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Brushed
+      Metal_Chrome.mat
+  - fileID: 6
+    classID: 21
+    packedSize: 932
+    offset: 149776
+    sourceAssetGUID: 84a1ffeca40e4c6439b0a1f93b4d287c
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Brushed
+      Metal_Gold.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 908
+    offset: 150712
+    sourceAssetGUID: 5bdd1af6958bd9143a8bc920d98238b3
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Cabinets_01.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 964
+    offset: 151624
+    sourceAssetGUID: 27f834cdb4589be48903c1e529e09c59
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/CastIron_01.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 968
+    offset: 152592
+    sourceAssetGUID: faedf01a9e7977749a7798016f508081
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Glass
+      Wine Bottle 05.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 924
+    offset: 153560
+    sourceAssetGUID: 9a0f81c2a61d0294db7e1b3a3eabad0c
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Plastic_01.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 940
+    offset: 154488
+    sourceAssetGUID: a2c29511873a89c4b8ec41360c9dd9cf
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Plastic_02.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 912
+    offset: 155432
+    sourceAssetGUID: cf467f7163d9eb14ca56735e8000eccb
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Shiny
+      Metal_01.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 908
+    offset: 156344
+    sourceAssetGUID: ac3fc719b726a894c8420c2dfeb24547
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/WhiteDull.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 924
+    offset: 157256
+    sourceAssetGUID: c9425284cc4c35444b2ffbaf94ed8447
+    buildTimeAssetPath: Assets/Brick Project Studio/Coffee Table/Coffee Table/Textures/Coffe
+      Table.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 1032
+    offset: 158184
+    sourceAssetGUID: b19cd723d1a08774bb743d39310f9fbe
+    buildTimeAssetPath: Assets/Brick Project Studio/Glass_Dark 1.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 916
+    offset: 159216
+    sourceAssetGUID: 4cd790ac0d37bdc46970f6688c6b5070
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic
+      Assets/BA_Color_Black_01.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 1020
+    offset: 160136
+    sourceAssetGUID: 3bded00981e95504a8e47f996835ca9a
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic
+      Assets/BA_Glass_02.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 928
+    offset: 161160
+    sourceAssetGUID: 823f8d5383d173a4fb4153a73427684f
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic
+      Assets/BA_Glow_White_01.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 912
+    offset: 162088
+    sourceAssetGUID: 47e0d20bc5f0663458d254e1ca1fd677
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene/GridFloor_udon.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 696
+    offset: 163000
+    sourceAssetGUID: b6b51ef319ad6c44aaade10c5beaf1bc
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene/SKY_UdonLab.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 924
+    offset: 163696
+    sourceAssetGUID: 8145bd69bea022f4db1c736b2e5ffa01
+    buildTimeAssetPath: Assets/Textures/Coffe Table/Coffe Table.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 928
+    offset: 164624
+    sourceAssetGUID: 25ec6dc0f17a8f44e891dbdaca13368e
+    buildTimeAssetPath: Assets/Textures/Concrete/BA_Concrete_01.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 1004
+    offset: 165552
+    sourceAssetGUID: 1f19234ae1148914db22dc405e1aee32
+    buildTimeAssetPath: Assets/Textures/Glass_Dark.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 924
+    offset: 166560
+    sourceAssetGUID: f9bfb44d73b16f84eb117e7d325d7b70
+    buildTimeAssetPath: Assets/Textures/MeshBlack/Mesh_Black.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 1100
+    offset: 167488
+    sourceAssetGUID: 21d6783f9752e0644bf95aa845204fac
+    buildTimeAssetPath: Assets/Textures/Plaster/Plaster.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 692
+    offset: 168592
+    sourceAssetGUID: 5f9bbf478c2b961468f0472188c111fb
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Materials/UIMaterial.mat
+  - fileID: 27
+    classID: 21
+    packedSize: 1064
+    offset: 169288
+    sourceAssetGUID: f9f0ca4e1c93d7c449df855cc90deab0
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Materials/VideoScreen.mat
+  - fileID: 28
+    classID: 28
+    packedSize: 5584
+    offset: 170352
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 29
+    classID: 28
+    packedSize: 5588
+    offset: 175936
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 30
+    classID: 28
+    packedSize: 5596
+    offset: 181528
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 31
+    classID: 28
+    packedSize: 349680
+    offset: 187128
+    sourceAssetGUID: 062a26ce01cb86642a4a5e558355d208
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/PauseIcon.png
+  - fileID: 32
+    classID: 28
+    packedSize: 349684
+    offset: 536808
+    sourceAssetGUID: 0b57367304e0c224fab0e9eef953ee44
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/VolumeHighIcon.png
+  - fileID: 33
+    classID: 28
+    packedSize: 699188
+    offset: 886496
+    sourceAssetGUID: 0c240e75d130f2543abace18ee1297e9
+    buildTimeAssetPath: Assets/Textures/Coffe Table/COLOR.jpg
+  - fileID: 34
+    classID: 28
+    packedSize: 2796380
+    offset: 1585688
+    sourceAssetGUID: 11773a146c7c3184f9a49e333c39dd5b
+    buildTimeAssetPath: Assets/Textures/Plaster/Poliigon_PlasterPainted_7664_AmbientOcclusion.jpg
+  - fileID: 35
+    classID: 28
+    packedSize: 260632
+    offset: 4382072
+    sourceAssetGUID: 17191fb3109cc2c41aed8d43bd763911
+    buildTimeAssetPath: Assets/Brick Project Studio/Coffee Table/Coffee Table/Textures/NORM.jpg
+  - fileID: 36
+    classID: 28
+    packedSize: 699196
+    offset: 4642704
+    sourceAssetGUID: 21de0f3ecc73ba54dab4841c391943b2
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene/GridFloor_udon.png
+  - fileID: 37
+    classID: 28
+    packedSize: 699192
+    offset: 5341904
+    sourceAssetGUID: 2430c2eca5d86534f8be40c65deb791b
+    buildTimeAssetPath: Assets/Textures/MeshBlack/Mesh_Black_A.png
+  - fileID: 38
+    classID: 28
+    packedSize: 1398260
+    offset: 6041096
+    sourceAssetGUID: 2595a59e4bb200a479cd18949ee5d090
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/ControlPanel_apt.png
+  - fileID: 39
+    classID: 28
+    packedSize: 349684
+    offset: 7439360
+    sourceAssetGUID: 2a2f709a85fb9604cb69ee3540c9d618
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/VolumeLowIcon.png
+  - fileID: 40
+    classID: 28
+    packedSize: 1398256
+    offset: 7789048
+    sourceAssetGUID: 2d526cc573ec43342a865dc61969b38c
+    buildTimeAssetPath: Assets/Textures/MeshBlack/Mesh_Black_N.png
+  - fileID: 41
+    classID: 28
+    packedSize: 349676
+    offset: 9187304
+    sourceAssetGUID: 2e770eb7fde325548bf15dea94681504
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/LockIcon.png
+  - fileID: 42
+    classID: 28
+    packedSize: 5592564
+    offset: 9536984
+    sourceAssetGUID: 3a7e5df4aef5369408c4aa6c3613ce6d
+    buildTimeAssetPath: Assets/Textures/Concrete/BA_Concrete_N.png
+  - fileID: 43
+    classID: 28
+    packedSize: 699192
+    offset: 15129552
+    sourceAssetGUID: 473e76b7fdb58724ab105d9d07528a63
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_01_A.png
+  - fileID: 44
+    classID: 28
+    packedSize: 1398256
+    offset: 15828744
+    sourceAssetGUID: 4bf427319880ec2419bf2d8809d66594
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_N.png
+  - fileID: 45
+    classID: 28
+    packedSize: 174904
+    offset: 17227000
+    sourceAssetGUID: 519900fa9d01e9a43a245c4795c2170e
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_A.png
+  - fileID: 46
+    classID: 28
+    packedSize: 5592584
+    offset: 17401904
+    sourceAssetGUID: 5cd1be60459eb5c408c5fbdbaabd2764
+    buildTimeAssetPath: Assets/Textures/Plaster/Poliigon_PlasterPainted_7664_Normal.png
+  - fileID: 47
+    classID: 28
+    packedSize: 174904
+    offset: 22994488
+    sourceAssetGUID: 60fe05f4313f9a743a60a9520b20834a
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_M.png
+  - fileID: 48
+    classID: 28
+    packedSize: 349684
+    offset: 23169392
+    sourceAssetGUID: 699edcd6cfca9c14781e41a83a5f47ec
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/VolumeMuteIcon.png
+  - fileID: 49
+    classID: 28
+    packedSize: 699192
+    offset: 23519080
+    sourceAssetGUID: 79ef3e688a809c344a2810096ad448bd
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_H.png
+  - fileID: 50
+    classID: 28
+    packedSize: 2796372
+    offset: 24218272
+    sourceAssetGUID: 86452fe88e9ab594cb96f5ba296b4151
+    buildTimeAssetPath: Assets/Textures/Plaster/Poliigon_PlasterPainted_7664_Roughness.jpg
+  - fileID: 51
+    classID: 28
+    packedSize: 349680
+    offset: 27014648
+    sourceAssetGUID: 99496fcaeb5bec24ba1bba0387998f15
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_N.png
+  - fileID: 52
+    classID: 28
+    packedSize: 1398260
+    offset: 27364328
+    sourceAssetGUID: 9c068687252a67747a8ff9e098cbf47b
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BrushedMetal_N.png
+  - fileID: 53
+    classID: 28
+    packedSize: 171764
+    offset: 28762592
+    sourceAssetGUID: a123a6b9e040ab54e88c0f84ab30853a
+    buildTimeAssetPath: Assets/Brick Project Studio/Coffee Table/Coffee Table/Textures/COLOR.jpg
+  - fileID: 54
+    classID: 28
+    packedSize: 699192
+    offset: 28934360
+    sourceAssetGUID: a3752630695cc834fb7bfc39f50ea9dc
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_A.png
+  - fileID: 55
+    classID: 28
+    packedSize: 349676
+    offset: 29633552
+    sourceAssetGUID: aba612f742b6fd54bad52ffb4cd44f99
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/LoopIcon.png
+  - fileID: 56
+    classID: 28
+    packedSize: 349680
+    offset: 29983232
+    sourceAssetGUID: b123dd9c318d33c469f08575ed5d0101
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/ReloadIcon.png
+  - fileID: 57
+    classID: 28
+    packedSize: 349676
+    offset: 30332912
+    sourceAssetGUID: bae40aa052ac7ed479e6d3444c2e5a75
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/PlayIcon.png
+  - fileID: 58
+    classID: 28
+    packedSize: 2796376
+    offset: 30682592
+    sourceAssetGUID: bd9c66cd8470c084bac00818a43f9214
+    buildTimeAssetPath: Assets/Textures/Plaster/Poliigon_PlasterPainted_7664_Displacement.tiff
+  - fileID: 59
+    classID: 28
+    packedSize: 1398248
+    offset: 33478968
+    sourceAssetGUID: c34172b2231a4b048a288fb8147619bd
+    buildTimeAssetPath: Assets/Textures/Coffe Table/NORM.jpg
+  - fileID: 60
+    classID: 28
+    packedSize: 2796372
+    offset: 34877216
+    sourceAssetGUID: cc3ff0d5d0121e240824016afc3997b7
+    buildTimeAssetPath: Assets/Textures/Plaster/Poliigon_PlasterPainted_7664_Metallic.jpg
+  - fileID: 61
+    classID: 28
+    packedSize: 349680
+    offset: 37673592
+    sourceAssetGUID: d26a5d7f84a7ab54c937b98e631663a1
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/UnlockIcon.png
+  - fileID: 62
+    classID: 28
+    packedSize: 1398256
+    offset: 38023272
+    sourceAssetGUID: df5c52a1546418346bff1558b601f6a5
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_01_N.png
+  - fileID: 63
+    classID: 28
+    packedSize: 2796348
+    offset: 39421528
+    sourceAssetGUID: e4439f27549f1cc4e9b1132727523de8
+    buildTimeAssetPath: Assets/Textures/Concrete/BA_Concrete_A.png
+  - fileID: 64
+    classID: 28
+    packedSize: 824
+    offset: 42217880
+    sourceAssetGUID: e5b174a8d905de44d938cdd3adf85546
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Textures/BlackSwatch.png
+  - fileID: 65
+    classID: 28
+    packedSize: 349676
+    offset: 42218704
+    sourceAssetGUID: e6225dac30a73a347b7ff0bf743f639f
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/StopIcon.png
+  - fileID: 66
+    classID: 28
+    packedSize: 349684
+    offset: 42568384
+    sourceAssetGUID: eb116d1688b9cac4fb160c69bd6e9690
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/VolumeOffIcon.png
+  - fileID: 67
+    classID: 28
+    packedSize: 349676
+    offset: 42918072
+    sourceAssetGUID: f16a414e2d147a94ab3d8a9e5ad2e28e
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/InfoIcon.png
+  - fileID: 68
+    classID: 28
+    packedSize: 174904
+    offset: 43267752
+    sourceAssetGUID: f3243849f3d44224597bc618e578d293
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_H.png
+  - fileID: 69
+    classID: 28
+    packedSize: 699196
+    offset: 43442656
+    sourceAssetGUID: f777047004de95f4ba34895907052505
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BrushedMetal_A.png
+  - fileID: 70
+    classID: 43
+    packedSize: 6484
+    offset: 44141856
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 71
+    classID: 43
+    packedSize: 13616
+    offset: 44148344
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 72
+    classID: 43
+    packedSize: 16020
+    offset: 44161960
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 73
+    classID: 43
+    packedSize: 13172
+    offset: 44177984
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 74
+    classID: 43
+    packedSize: 16472
+    offset: 44191160
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 75
+    classID: 43
+    packedSize: 6944
+    offset: 44207632
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 76
+    classID: 43
+    packedSize: 4728
+    offset: 44214576
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 77
+    classID: 43
+    packedSize: 24920
+    offset: 44219304
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 78
+    classID: 43
+    packedSize: 4632
+    offset: 44244224
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 79
+    classID: 43
+    packedSize: 13992
+    offset: 44248856
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 80
+    classID: 43
+    packedSize: 6532
+    offset: 44262848
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 81
+    classID: 43
+    packedSize: 6308
+    offset: 44269384
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 82
+    classID: 43
+    packedSize: 11368
+    offset: 44275696
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 83
+    classID: 43
+    packedSize: 14172
+    offset: 44287064
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 84
+    classID: 43
+    packedSize: 12116
+    offset: 44301240
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 85
+    classID: 43
+    packedSize: 6484
+    offset: 44313360
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 86
+    classID: 43
+    packedSize: 25448
+    offset: 44319848
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 87
+    classID: 43
+    packedSize: 12116
+    offset: 44345296
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 88
+    classID: 43
+    packedSize: 8448
+    offset: 44357416
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 89
+    classID: 43
+    packedSize: 832
+    offset: 44365864
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 90
+    classID: 43
+    packedSize: 18240
+    offset: 44366696
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 91
+    classID: 43
+    packedSize: 12232
+    offset: 44384936
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 92
+    classID: 43
+    packedSize: 7972
+    offset: 44397168
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 93
+    classID: 43
+    packedSize: 13212
+    offset: 44405144
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 94
+    classID: 43
+    packedSize: 4728
+    offset: 44418360
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 95
+    classID: 43
+    packedSize: 4728
+    offset: 44423088
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 96
+    classID: 43
+    packedSize: 17724
+    offset: 44427816
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 97
+    classID: 43
+    packedSize: 4352
+    offset: 44445544
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 98
+    classID: 43
+    packedSize: 24920
+    offset: 44449896
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 99
+    classID: 43
+    packedSize: 14532
+    offset: 44474816
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 100
+    classID: 43
+    packedSize: 60804
+    offset: 44489352
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 101
+    classID: 43
+    packedSize: 24920
+    offset: 44550160
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 102
+    classID: 43
+    packedSize: 15488
+    offset: 44575080
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 103
+    classID: 43
+    packedSize: 13172
+    offset: 44590568
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 104
+    classID: 43
+    packedSize: 4728
+    offset: 44603744
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 105
+    classID: 43
+    packedSize: 12276
+    offset: 44608472
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 106
+    classID: 43
+    packedSize: 4728
+    offset: 44620752
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 107
+    classID: 43
+    packedSize: 6724
+    offset: 44625480
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 108
+    classID: 43
+    packedSize: 15364
+    offset: 44632208
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 109
+    classID: 43
+    packedSize: 832
+    offset: 44647576
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 110
+    classID: 43
+    packedSize: 5664
+    offset: 44648408
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 111
+    classID: 43
+    packedSize: 4728
+    offset: 44654072
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 112
+    classID: 43
+    packedSize: 11560
+    offset: 44658800
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 113
+    classID: 43
+    packedSize: 10140
+    offset: 44670360
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 114
+    classID: 43
+    packedSize: 12496
+    offset: 44680504
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 115
+    classID: 43
+    packedSize: 8444
+    offset: 44693000
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 116
+    classID: 43
+    packedSize: 15364
+    offset: 44701448
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 117
+    classID: 43
+    packedSize: 43392
+    offset: 44716816
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 118
+    classID: 43
+    packedSize: 13244
+    offset: 44760208
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 119
+    classID: 43
+    packedSize: 14512
+    offset: 44773456
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 120
+    classID: 43
+    packedSize: 4632
+    offset: 44787968
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 121
+    classID: 43
+    packedSize: 6532
+    offset: 44792600
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 122
+    classID: 43
+    packedSize: 5660
+    offset: 44799136
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 123
+    classID: 43
+    packedSize: 24920
+    offset: 44804800
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 124
+    classID: 43
+    packedSize: 832
+    offset: 44829720
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 125
+    classID: 43
+    packedSize: 2060
+    offset: 44830552
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 126
+    classID: 43
+    packedSize: 12116
+    offset: 44832616
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 127
+    classID: 43
+    packedSize: 4900
+    offset: 44844736
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 128
+    classID: 43
+    packedSize: 1352
+    offset: 44849640
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 129
+    classID: 43
+    packedSize: 15364
+    offset: 44850992
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 130
+    classID: 43
+    packedSize: 13056
+    offset: 44866360
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 131
+    classID: 43
+    packedSize: 17724
+    offset: 44879416
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 132
+    classID: 43
+    packedSize: 24920
+    offset: 44897144
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 133
+    classID: 43
+    packedSize: 18240
+    offset: 44922064
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 134
+    classID: 43
+    packedSize: 12116
+    offset: 44940304
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 135
+    classID: 43
+    packedSize: 15268
+    offset: 44952424
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 136
+    classID: 43
+    packedSize: 3264
+    offset: 44967696
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 137
+    classID: 43
+    packedSize: 15368
+    offset: 44970960
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 138
+    classID: 43
+    packedSize: 4728
+    offset: 44986328
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 139
+    classID: 43
+    packedSize: 21052
+    offset: 44991056
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 140
+    classID: 43
+    packedSize: 12116
+    offset: 45012112
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 141
+    classID: 43
+    packedSize: 5664
+    offset: 45024232
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 142
+    classID: 43
+    packedSize: 14512
+    offset: 45029896
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 143
+    classID: 43
+    packedSize: 4632
+    offset: 45044408
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 144
+    classID: 43
+    packedSize: 2852
+    offset: 45049040
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 145
+    classID: 43
+    packedSize: 7208
+    offset: 45051896
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 146
+    classID: 43
+    packedSize: 12136
+    offset: 45059104
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 147
+    classID: 43
+    packedSize: 5664
+    offset: 45071240
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 148
+    classID: 43
+    packedSize: 4632
+    offset: 45076904
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 149
+    classID: 43
+    packedSize: 14012
+    offset: 45081536
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 150
+    classID: 43
+    packedSize: 6868
+    offset: 45095552
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 151
+    classID: 43
+    packedSize: 7204
+    offset: 45102424
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 152
+    classID: 43
+    packedSize: 13992
+    offset: 45109632
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 153
+    classID: 43
+    packedSize: 12116
+    offset: 45123624
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 154
+    classID: 43
+    packedSize: 14012
+    offset: 45135744
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 155
+    classID: 43
+    packedSize: 832
+    offset: 45149760
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 156
+    classID: 43
+    packedSize: 6868
+    offset: 45150592
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 157
+    classID: 43
+    packedSize: 180360
+    offset: 45157464
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 158
+    classID: 43
+    packedSize: 19816
+    offset: 45337824
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 159
+    classID: 43
+    packedSize: 15364
+    offset: 45357640
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 160
+    classID: 43
+    packedSize: 7972
+    offset: 45373008
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 161
+    classID: 43
+    packedSize: 5664
+    offset: 45380984
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 162
+    classID: 43
+    packedSize: 8448
+    offset: 45386648
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 163
+    classID: 43
+    packedSize: 6484
+    offset: 45395096
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 164
+    classID: 43
+    packedSize: 14172
+    offset: 45401584
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 165
+    classID: 43
+    packedSize: 14072
+    offset: 45415760
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 166
+    classID: 43
+    packedSize: 4728
+    offset: 45429832
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 167
+    classID: 43
+    packedSize: 5664
+    offset: 45434560
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 168
+    classID: 43
+    packedSize: 8448
+    offset: 45440224
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 169
+    classID: 43
+    packedSize: 6580
+    offset: 45448672
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 170
+    classID: 43
+    packedSize: 15876
+    offset: 45455256
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 171
+    classID: 43
+    packedSize: 5664
+    offset: 45471136
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 172
+    classID: 43
+    packedSize: 15132
+    offset: 45476800
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 173
+    classID: 43
+    packedSize: 121660
+    offset: 45491936
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 174
+    classID: 43
+    packedSize: 6868
+    offset: 45613600
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 175
+    classID: 43
+    packedSize: 6724
+    offset: 45620472
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 176
+    classID: 43
+    packedSize: 14172
+    offset: 45627200
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 177
+    classID: 43
+    packedSize: 12232
+    offset: 45641376
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 178
+    classID: 43
+    packedSize: 8448
+    offset: 45653608
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 179
+    classID: 43
+    packedSize: 5676
+    offset: 45662056
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 180
+    classID: 43
+    packedSize: 2116
+    offset: 45667736
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 181
+    classID: 43
+    packedSize: 12784
+    offset: 45669856
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 182
+    classID: 43
+    packedSize: 25264
+    offset: 45682640
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 183
+    classID: 43
+    packedSize: 121096
+    offset: 45707904
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 184
+    classID: 43
+    packedSize: 4632
+    offset: 45829000
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 185
+    classID: 43
+    packedSize: 3268
+    offset: 45833632
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 186
+    classID: 43
+    packedSize: 180520
+    offset: 45836904
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 187
+    classID: 43
+    packedSize: 7344
+    offset: 46017424
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 188
+    classID: 43
+    packedSize: 4612
+    offset: 46024768
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 189
+    classID: 43
+    packedSize: 4728
+    offset: 46029384
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 190
+    classID: 43
+    packedSize: 6724
+    offset: 46034112
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 191
+    classID: 43
+    packedSize: 28184
+    offset: 46040840
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 192
+    classID: 43
+    packedSize: 10572
+    offset: 46069024
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 193
+    classID: 43
+    packedSize: 14012
+    offset: 46079600
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 194
+    classID: 43
+    packedSize: 5636
+    offset: 46093616
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 195
+    classID: 43
+    packedSize: 8448
+    offset: 46099256
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 196
+    classID: 43
+    packedSize: 4728
+    offset: 46107704
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 197
+    classID: 43
+    packedSize: 10572
+    offset: 46112432
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 198
+    classID: 43
+    packedSize: 832
+    offset: 46123008
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 199
+    classID: 43
+    packedSize: 4728
+    offset: 46123840
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 200
+    classID: 43
+    packedSize: 5664
+    offset: 46128568
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 201
+    classID: 43
+    packedSize: 8448
+    offset: 46134232
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 202
+    classID: 43
+    packedSize: 15364
+    offset: 46142680
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 203
+    classID: 43
+    packedSize: 72216
+    offset: 46158048
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 204
+    classID: 43
+    packedSize: 19716
+    offset: 46230264
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 205
+    classID: 43
+    packedSize: 1480
+    offset: 46249984
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 206
+    classID: 43
+    packedSize: 8448
+    offset: 46251464
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 207
+    classID: 43
+    packedSize: 4724
+    offset: 46259912
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 208
+    classID: 43
+    packedSize: 121096
+    offset: 46264640
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 209
+    classID: 43
+    packedSize: 4632
+    offset: 46385736
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 210
+    classID: 43
+    packedSize: 4728
+    offset: 46390368
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 211
+    classID: 43
+    packedSize: 14128
+    offset: 46395096
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 212
+    classID: 43
+    packedSize: 5664
+    offset: 46409224
+    sourceAssetGUID: 42cc1d0657a21aa4aa515f8bafdbe30d
+    buildTimeAssetPath: "Assets/Brick Project Studio/\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430
+      (3).blend"
+  - fileID: 213
+    classID: 43
+    packedSize: 4728
+    offset: 46414888
+    sourceAssetGUID: 2a83511a782a6aa4dafed1f5a2bd3803
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx
+  - fileID: 214
+    classID: 48
+    packedSize: 17324
+    offset: 46419616
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 215
+    classID: 48
+    packedSize: 288944
+    offset: 46436944
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 216
+    classID: 48
+    packedSize: 10256
+    offset: 46725888
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 217
+    classID: 48
+    packedSize: 7772
+    offset: 46736144
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 218
+    classID: 48
+    packedSize: 96736
+    offset: 46743920
+    sourceAssetGUID: 412ea878efbed224d97338aed34a773c
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Shaders/StandardVideoEmissive.shader
+  - fileID: 219
+    classID: 48
+    packedSize: 7156
+    offset: 46840656
+    sourceAssetGUID: 9d61949da4bd1b545b4fdacba6dfb5da
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Shaders/UI-MerlinUI.shader
+  - fileID: 220
+    classID: 74
+    packedSize: 2504
+    offset: 46847816
+    sourceAssetGUID: 438a7d2af973c3348921e30c83ab5205
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts
+      & Animation/OvenOpen/ClosingOven.anim
+  - fileID: 221
+    classID: 74
+    packedSize: 2500
+    offset: 46850320
+    sourceAssetGUID: 075eb7678139ac54ba0efbab5c4b1255
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts
+      & Animation/OvenOpen/OpenOven.anim
+  - fileID: 222
+    classID: 74
+    packedSize: 2504
+    offset: 46852824
+    sourceAssetGUID: 3ba90786818c61749b6ba3df30d6c117
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Doors/Closing 1.anim
+  - fileID: 223
+    classID: 74
+    packedSize: 2500
+    offset: 46855328
+    sourceAssetGUID: 107c03b19248aa740b48b8e3714d20ec
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Doors/Closing.anim
+  - fileID: 224
+    classID: 74
+    packedSize: 2504
+    offset: 46857832
+    sourceAssetGUID: d1c0db31e512c124cbc6f2a57b8bac2b
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Doors/Opening 1.anim
+  - fileID: 225
+    classID: 74
+    packedSize: 2500
+    offset: 46860336
+    sourceAssetGUID: 346d4004c3a668e4d8afa4a40d47416d
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Doors/Opening.anim
+  - fileID: 226
+    classID: 74
+    packedSize: 2504
+    offset: 46862840
+    sourceAssetGUID: 7b9d5a8930e7cf4478b9e7be6ca056b3
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Drawer/X Axis/closepush_01.anim
+  - fileID: 227
+    classID: 74
+    packedSize: 2504
+    offset: 46865344
+    sourceAssetGUID: fe28aa381f926cb479632188f023be93
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Drawer/X Axis/openpull_01.anim
+  - fileID: 228
+    classID: 74
+    packedSize: 2368
+    offset: 46867848
+    sourceAssetGUID: ea8077da5766357479dd3ebf31da098c
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Animations/InterpTo0.anim
+  - fileID: 229
+    classID: 74
+    packedSize: 2368
+    offset: 46870216
+    sourceAssetGUID: 599105a1454742644906304ddb0562cd
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Animations/InterpTo1.anim
+  - fileID: 230
+    classID: 74
+    packedSize: 2864
+    offset: 46872584
+    sourceAssetGUID: 6b22cd66ca95bcd468f2f47441c00582
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Animations/ReloadRotate.anim
+  - fileID: 231
+    classID: 74
+    packedSize: 2500
+    offset: 46875448
+    sourceAssetGUID: 729e274e55787aa4cabf907118ae9d59
+    buildTimeAssetPath: Assets/buttons/Closing.anim
+  - fileID: 232
+    classID: 74
+    packedSize: 2500
+    offset: 46877952
+    sourceAssetGUID: db6854730382dd6488fda2c6209b712f
+    buildTimeAssetPath: Assets/buttons/Opening.anim
+  - fileID: 233
+    classID: 91
+    packedSize: 700
+    offset: 46880456
+    sourceAssetGUID: ae6447d9d805dbd47a186d4d4b009eb9
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts
+      & Animation/OvenOpen/OvenFlip.controller
+  - fileID: 234
+    classID: 91
+    packedSize: 696
+    offset: 46881160
+    sourceAssetGUID: 099e6cc38da8ff74bb68d0bf29e24642
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Doors/openandclose.controller
+  - fileID: 235
+    classID: 91
+    packedSize: 900
+    offset: 46881856
+    sourceAssetGUID: a78403c5152a9024b9029ea9f39b3592
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Doors/openandclose1.controller
+  - fileID: 236
+    classID: 91
+    packedSize: 716
+    offset: 46882760
+    sourceAssetGUID: 670045c46abca0544a34a6d8647b08bb
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Drawer/X Axis/pull_01.controller
+  - fileID: 237
+    classID: 91
+    packedSize: 840
+    offset: 46883480
+    sourceAssetGUID: 3508d1b4f8de760439c5a1dd8cebf4f6
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Animations/ReloadButton.controller
+  - fileID: 238
+    classID: 91
+    packedSize: 1232
+    offset: 46884320
+    sourceAssetGUID: 43d010a9dfd9d934db896b3ca4f95eeb
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Animations/SliderController.controller
+  - fileID: 239
+    classID: 91
+    packedSize: 896
+    offset: 46885552
+    sourceAssetGUID: b73e7198def87704981c2006f05fd6be
+    buildTimeAssetPath: Assets/buttons/door.controller
+  - fileID: 240
+    classID: 115
+    packedSize: 120
+    offset: 143536
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 241
+    classID: 115
+    packedSize: 120
+    offset: 143656
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 242
+    classID: 115
+    packedSize: 92
+    offset: 143776
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 243
+    classID: 115
+    packedSize: 96
+    offset: 143872
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 244
+    classID: 115
+    packedSize: 116
+    offset: 143968
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 245
+    classID: 115
+    packedSize: 116
+    offset: 144088
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 246
+    classID: 115
+    packedSize: 100
+    offset: 144208
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 247
+    classID: 115
+    packedSize: 108
+    offset: 144312
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 248
+    classID: 115
+    packedSize: 92
+    offset: 144424
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 249
+    classID: 115
+    packedSize: 96
+    offset: 144520
+    sourceAssetGUID: 1e8192f35a44301488ec0f072d9a16fe
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Doors/opencloseDoor.cs
+  - fileID: 250
+    classID: 115
+    packedSize: 88
+    offset: 144616
+    sourceAssetGUID: 27ce5d32713d91c4e8d5a6ec9e867dcc
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Scripts/UI/UIStyler.cs
+  - fileID: 251
+    classID: 115
+    packedSize: 76
+    offset: 144704
+    sourceAssetGUID: 31a19414c41e5ae4aae2af33fee712f6
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Mask.cs
+  - fileID: 252
+    classID: 115
+    packedSize: 88
+    offset: 144784
+    sourceAssetGUID: 447ea4bbd35f6a541adc230420ec00c2
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Scripts/UI/UIStyle.cs
+  - fileID: 253
+    classID: 115
+    packedSize: 84
+    offset: 144872
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 254
+    classID: 115
+    packedSize: 96
+    offset: 144960
+    sourceAssetGUID: 4b5e0617227fa4743be84f23d9e5cb42
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Doors/opencloseDoor1.cs
+  - fileID: 255
+    classID: 115
+    packedSize: 84
+    offset: 145056
+    sourceAssetGUID: 4e29b1a8efbd4b44bb3f3716e73f07ff
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+  - fileID: 256
+    classID: 115
+    packedSize: 124
+    offset: 145144
+    sourceAssetGUID: 4f231c4fb786f3946a6b90b886c48677
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+  - fileID: 257
+    classID: 115
+    packedSize: 76
+    offset: 145272
+    sourceAssetGUID: 5f7201a12d95ffc409449d95f23cf332
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Text.cs
+  - fileID: 258
+    classID: 115
+    packedSize: 84
+    offset: 145352
+    sourceAssetGUID: 67db9e8f0e2ae9c40bc1e2b64352a6b4
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Slider.cs
+  - fileID: 259
+    classID: 115
+    packedSize: 100
+    offset: 145440
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 260
+    classID: 115
+    packedSize: 104
+    offset: 145544
+    sourceAssetGUID: 785c8954a0e481d4692a9aef33de993c
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Scripts/UI/UIStyleMarkup.cs
+  - fileID: 261
+    classID: 115
+    packedSize: 80
+    offset: 145648
+    sourceAssetGUID: 86ae241f95cb0464188693a338d04798
+    buildTimeAssetPath: Assets/Brick Project Studio/Apartment Kit/Common/Scripts
+      & Animation/OvenOpen/OvenFlip.cs
+  - fileID: 262
+    classID: 115
+    packedSize: 100
+    offset: 145728
+    sourceAssetGUID: 8a8695521f0d02e499659fee002a26c2
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/GridLayoutGroup.cs
+  - fileID: 263
+    classID: 115
+    packedSize: 124
+    offset: 145832
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 264
+    classID: 115
+    packedSize: 100
+    offset: 145960
+    sourceAssetGUID: d0b148fe25e99eb48b9724523833bab1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventTrigger.cs
+  - fileID: 265
+    classID: 115
+    packedSize: 92
+    offset: 146064
+    sourceAssetGUID: d199490a83bb2b844b9695cbf13b01ef
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/InputField.cs
+  - fileID: 266
+    classID: 115
+    packedSize: 100
+    offset: 146160
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 267
+    classID: 115
+    packedSize: 96
+    offset: 146264
+    sourceAssetGUID: e0d5557a01f4e0740bd53d6ed2ab7327
+    buildTimeAssetPath: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts
+      and Animations/Drawer/X Axis/Drawer_Pull_X.cs
+  - fileID: 268
+    classID: 115
+    packedSize: 84
+    offset: 146360
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 269
+    classID: 115
+    packedSize: 120
+    offset: 146448
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 270
+    classID: 213
+    packedSize: 568
+    offset: 46886448
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 271
+    classID: 213
+    packedSize: 572
+    offset: 46887016
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 272
+    classID: 213
+    packedSize: 580
+    offset: 46887592
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 273
+    classID: 213
+    packedSize: 1288
+    offset: 46888176
+    sourceAssetGUID: 062a26ce01cb86642a4a5e558355d208
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/PauseIcon.png
+  - fileID: 274
+    classID: 213
+    packedSize: 1764
+    offset: 46889464
+    sourceAssetGUID: 0b57367304e0c224fab0e9eef953ee44
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/VolumeHighIcon.png
+  - fileID: 275
+    classID: 213
+    packedSize: 1320
+    offset: 46891232
+    sourceAssetGUID: 2a2f709a85fb9604cb69ee3540c9d618
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/VolumeLowIcon.png
+  - fileID: 276
+    classID: 213
+    packedSize: 1912
+    offset: 46892552
+    sourceAssetGUID: 2e770eb7fde325548bf15dea94681504
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/LockIcon.png
+  - fileID: 277
+    classID: 213
+    packedSize: 1180
+    offset: 46894464
+    sourceAssetGUID: 699edcd6cfca9c14781e41a83a5f47ec
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/VolumeMuteIcon.png
+  - fileID: 278
+    classID: 213
+    packedSize: 1068
+    offset: 46895648
+    sourceAssetGUID: aba612f742b6fd54bad52ffb4cd44f99
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/LoopIcon.png
+  - fileID: 279
+    classID: 213
+    packedSize: 1652
+    offset: 46896720
+    sourceAssetGUID: b123dd9c318d33c469f08575ed5d0101
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/ReloadIcon.png
+  - fileID: 280
+    classID: 213
+    packedSize: 1816
+    offset: 46898376
+    sourceAssetGUID: bae40aa052ac7ed479e6d3444c2e5a75
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/PlayIcon.png
+  - fileID: 281
+    classID: 213
+    packedSize: 1572
+    offset: 46900192
+    sourceAssetGUID: d26a5d7f84a7ab54c937b98e631663a1
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/UnlockIcon.png
+  - fileID: 282
+    classID: 213
+    packedSize: 1144
+    offset: 46901768
+    sourceAssetGUID: e6225dac30a73a347b7ff0bf743f639f
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/StopIcon.png
+  - fileID: 283
+    classID: 213
+    packedSize: 1024
+    offset: 46902912
+    sourceAssetGUID: eb116d1688b9cac4fb160c69bd6e9690
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/VolumeOffIcon.png
+  - fileID: 284
+    classID: 213
+    packedSize: 4732
+    offset: 46903936
+    sourceAssetGUID: f16a414e2d147a94ab3d8a9e5ad2e28e
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/UI/Feather/InfoIcon.png
+  - fileID: 285
+    classID: 114
+    packedSize: 2908
+    offset: 46908672
+    sourceAssetGUID: ecb08fc0ab093fb49a9ca268172845ad
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/0cfd2b8f0262db847bfb55bab92d3218.asset
+  - fileID: 286
+    classID: 114
+    packedSize: 5244
+    offset: 46911584
+    sourceAssetGUID: 3e24d594496aae7429a6835a70167cef
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/1e90e65c11b3fae4c90c1b55d4472db7.asset
+  - fileID: 287
+    classID: 114
+    packedSize: 3720
+    offset: 46916832
+    sourceAssetGUID: 833bdb599b2ec0749a706ef1416573b8
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/358a98096f2187c4eb0cee20115d2f3a.asset
+  - fileID: 288
+    classID: 114
+    packedSize: 1508
+    offset: 46920552
+    sourceAssetGUID: 8bd3c6f2a7fc5b348900249601922abb
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/553f0db2752ead24590f8ac2e1f80c06.asset
+  - fileID: 289
+    classID: 114
+    packedSize: 2816
+    offset: 46922064
+    sourceAssetGUID: 890bdd49ec20ba3418a984144586c07f
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset
+  - fileID: 290
+    classID: 114
+    packedSize: 2056
+    offset: 46924880
+    sourceAssetGUID: dff5e583559c4c24b91ab3186fae2f64
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/66bcb1b4c334e834faa4fe0581ac2ef4.asset
+  - fileID: 291
+    classID: 114
+    packedSize: 12068
+    offset: 46926936
+    sourceAssetGUID: a4d287b895ecf514a85b442038a84e83
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/7021d3ad08c81d54c8598190c706a0c5.asset
+  - fileID: 292
+    classID: 114
+    packedSize: 32604
+    offset: 46939008
+    sourceAssetGUID: c7f1cc9a0f311d24ab4118c45d185159
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/71ad2ba2c082d724bbdda2d8ddd47a32.asset
+  - fileID: 293
+    classID: 114
+    packedSize: 1792
+    offset: 46971616
+    sourceAssetGUID: e49ad1a10eaf0a34093fef18f9350f42
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/b0c60135ec3e09e4796af91290498d4b.asset
+  - fileID: 294
+    classID: 114
+    packedSize: 1648
+    offset: 46973408
+    sourceAssetGUID: b8d93ed9483e7104fac46f3db7c114af
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 295
+    classID: 114
+    packedSize: 2340
+    offset: 46975056
+    sourceAssetGUID: c2943daaa8b50b041b5371b80419664e
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/cdeaa82e9eeca4249860474b074fefa2.asset
+  - fileID: 296
+    classID: 114
+    packedSize: 296
+    offset: 46977400
+    sourceAssetGUID: 55106727684a20b48a170c471208dd4a
+    buildTimeAssetPath: Assets/USharpVideo-1.0.1/USharpVideo-1.0.1/Assets/USharpVideo/Styles/Default.asset
